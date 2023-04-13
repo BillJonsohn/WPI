@@ -81,6 +81,11 @@ void opcontrol(void);
 /**
  * You can add C++-only headers here
  */
+ 
+  #include "subsystemHeaders/conveyor.hpp"
+
+  #include "subsystemHeaders/globals.hpp"
+
 //#include <iostream>
 #endif
 
